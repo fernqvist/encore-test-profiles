@@ -10,4 +10,5 @@ x265-1080p-medium: x265-1080p-medium.yml
 x264-crf-parametrized: x264-crf-parametrized.yml
 program-nvenc-h265: program-nvenc-h265.yml
 nvenc-test: nvenc-test.yml
+playout-xavc-hd: playout-xavc-hd.yaml
 none:
