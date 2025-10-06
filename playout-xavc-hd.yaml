@@ -17,4 +17,4 @@ encodes:
       type: SimpleAudioEncode
       codec: pcm_s16le
       samplerate: 48000
-      channels: 16
+      channels: 2
