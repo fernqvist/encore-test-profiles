@@ -14,6 +14,7 @@ encodes:
       pix_fmt: yuv422p10le
       profile:v: high
     audioEncode:
+      type: SimpleAudioEncode
       codec: pcm_s16le
       samplerate: 48000
       channels: 16
