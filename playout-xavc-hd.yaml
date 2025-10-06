@@ -4,16 +4,15 @@ encodes:
   - type: VideoEncode
     codec: libx264
     suffix: _xavc-p50_50m
-    twoPass: true
+    twoPass: false
     height: 1080
     format: mxf
     params:
       b:v: 50M
       r: 50
       g: 50
-      pix_fmt: yuv420p
+      pix_fmt: yuv422p10le
       profile:v: high
-      level: 4.1
     audioEncode:
       codec: pcm_s16le
       samplerate: 48000
