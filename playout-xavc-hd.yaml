@@ -11,7 +11,7 @@ encodes:
       b:v: 50M
       r: 50
       g: 50
-      pix_fmt: yuv422p10le
+      pix_fmt: yuv420p
       profile:v: high
     audioEncode:
       type: SimpleAudioEncode
