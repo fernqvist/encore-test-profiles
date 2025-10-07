@@ -3,12 +3,12 @@ description: XAVC LongGOP 1080p50 playout profile
 encodes:
   - type: VideoEncode
     codec: libx264
-    suffix: _xavc-p50_50m
+    suffix: _xavc-p50_25m
     twoPass: false
     height: 1080
     format: mxf
     params:
-      b:v: 50M
+      b:v: 25M
       r: 50
       g: 50
       pix_fmt: yuv420p
@@ -17,4 +17,4 @@ encodes:
       type: SimpleAudioEncode
       codec: pcm_s16le
       samplerate: 48000
-      channels: 2
+      channels: 16
